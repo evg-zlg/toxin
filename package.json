@@ -1,0 +1,26 @@
+{
+  "name": "toxin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evg-zlg/toxin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evg-zlg/toxin/issues"
+  },
+  "homepage": "https://github.com/evg-zlg/toxin#readme",
+  "devDependencies": {
+    "pug": "^3.0.2"
+  },
+  "dependencies": {
+    "sass": "^1.54.3"
+  }
+}
