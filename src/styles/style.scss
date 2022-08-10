@@ -1,5 +1,10 @@
 @import "./styles/fonts.scss";
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
+}
 body, figure {
   font-family: "generalFont";
   font-size: 14px;
@@ -8,8 +13,6 @@ body, figure {
   font-weight: normal;
   font-weight: 400;
   color: rgba(31, 32, 65, 0.75);
-  margin: 0;
-  padding: 0;
 
 }
 h1 {
@@ -17,16 +20,14 @@ h1 {
   line-height: 29px;
   color: #1F2041;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
+
 }
 h2 {
   font-size: 19px;
   line-height: 23px;
   color: #1F2041;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
+
 }
 h3 {
   font-size: 12px;
@@ -34,8 +35,7 @@ h3 {
   color: #1F2041;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 0;
-  padding: 0;
+
 }
 p {
   font-family: "generalFont";
@@ -45,8 +45,7 @@ p {
   font-weight: normal;
   font-weight: 400;
   color: rgba(31, 32, 65, 0.75);
-  margin: 0;
-  padding: 0;
+
 }
 .ui-kit {
   background-color: #E5E5E5;
@@ -54,6 +53,8 @@ p {
 }
 .page__title {
   color:rgba(31, 32, 65, 0.25);
+  margin-left: 55px;
+  margin-bottom: 5px;
 }
 
 .page__logo {
