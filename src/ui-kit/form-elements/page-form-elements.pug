@@ -1,10 +1,16 @@
-
+include ./library-elements/text-field/text-field
 style 
   include page-form-elements.scss 
 figure.page__logo
 div.content 
   div.row
     div.column
+      div.form-elements__input
+        +text-field("text field", "Email")
+        label.form-elements__label default
+      div.form-elements__input
+        +text-field("text field", "This is pretty awesome")
+        label.form-elements__label hover / focus
     div.column
     div.column
   div.row 

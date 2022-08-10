@@ -1,0 +1,14 @@
+.form-elements__input {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-elements__label {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(31, 32, 65, 0.5);
+}

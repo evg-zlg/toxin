@@ -1,0 +1,6 @@
+style 
+  include text-field.scss
+mixin text-field(label, placehold)
+  div.text-field
+    h3.text-field__label #{label}
+    input(type="text" class="text-field__input" placeholder=placehold)

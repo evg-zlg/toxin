@@ -3,17 +3,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+  font-family: "generalFont", Arial, sans-serif;
 }
+$DarkShade100: #1F2041;
+$DarkShade75: rgba(31, 32, 65, 0.75);
+$DarkShade50: rgba(31, 32, 65, 0.5);
+$DarkShade25: rgba(31, 32, 65, 0.25);
+$DarkShade05: rgba(31, 32, 65, 0.05);
+$Purple: #BC9CFF;
+$Green: #6FCF97;
+
 body, figure {
-  font-family: "generalFont";
   font-size: 14px;
   line-height: 24px;
-  font-style: normal;
   font-weight: normal;
-  font-weight: 400;
   color: rgba(31, 32, 65, 0.75);
-
 }
 h1 {
   font-size: 24px;
