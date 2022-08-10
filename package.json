@@ -21,6 +21,7 @@
     "pug": "^3.0.2"
   },
   "dependencies": {
+    "jquery-mask-plugin": "^1.14.16",
     "sass": "^1.54.4"
   }
 }
