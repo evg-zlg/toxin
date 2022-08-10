@@ -1,3 +1,17 @@
-h1 {
-  color: red;
+body, figure {
+  margin: 0;
+  padding: 0;
+}
+.ui-kit {
+  background-color: #E5E5E5;
+  padding-top: 30px;
+}
+.page__title {
+  color:rgba(31, 32, 65, 0.25);
+}
+
+.page__logo {
+  background-image: url("./images/logo.svg");
+  width: 48px;
+  height: 48px;
 }
