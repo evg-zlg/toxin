@@ -184,7 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/fonts.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\fonts\\montserrat.ttf":[["montserrat.39a68dae.ttf","fonts/montserrat.ttf"],"fonts/montserrat.ttf"],"./..\\fonts\\montserrat.woff":[["montserrat.4ce29a38.woff","fonts/montserrat.woff"],"fonts/montserrat.woff"],"./..\\fonts\\montserrat-bold.ttf":[["montserrat-bold.7a7db987.ttf","fonts/montserrat-bold.ttf"],"fonts/montserrat-bold.ttf"],"./..\\fonts\\montserrat-bold.woff":[["montserrat-bold.b5ae94a0.woff","fonts/montserrat-bold.woff"],"fonts/montserrat-bold.woff"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -389,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/index.js.map
+//# sourceMappingURL=/fonts.008ae1fc.js.map

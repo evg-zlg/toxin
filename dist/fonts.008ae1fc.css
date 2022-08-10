@@ -1,0 +1,13 @@
+@font-face {
+  font-family: generalFont;
+  src: url("/montserrat.39a68dae.ttf") format("truetype"), url("/montserrat.4ce29a38.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: generalFont;
+  src: url("/montserrat-bold.7a7db987.ttf") format("truetype"), url("/montserrat-bold.b5ae94a0.woff") format("woff");
+  font-weight: bold;
+  font-style: bold;
+}
+
+/*# sourceMappingURL=/fonts.008ae1fc.css.map */

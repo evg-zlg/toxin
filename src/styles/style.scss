@@ -1,4 +1,7 @@
+@import "./styles/fonts.scss";
+
 body, figure {
+  font-family: generalFont;
   margin: 0;
   padding: 0;
 }
