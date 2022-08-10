@@ -1,13 +1,14 @@
 @font-face {
   font-family: generalFont;
+  font-style: normal;
+  font-weight: normal;
   src: url("../fonts/montserrat.ttf") format("truetype"),
        url("../fonts/montserrat.woff") format("woff");
-  font-style: normal;
 }
 @font-face {
   font-family: generalFont;
+  font-weight: bold;
+  font-style: normal;
   src: url("../fonts/montserrat-bold.ttf") format("truetype"),
        url("../fonts/montserrat-bold.woff") format("woff");
-  font-weight: bold;
-  font-style: bold;
 }
