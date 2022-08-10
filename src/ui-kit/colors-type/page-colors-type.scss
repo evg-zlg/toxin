@@ -15,3 +15,37 @@
 .types {
   width: 428px;
 }
+.types__item {
+  display: flex;
+}
+.types__item:nth-child(1) {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 53px;
+}
+.types__item:nth-child(1) .types__title {
+  padding-top: 1px;
+}
+.types__item:nth-child(2) {
+  font-size: 19px;
+  line-height: 23px;
+  margin-bottom: 54.12px;
+  
+}
+.types__item:nth-child(3) {
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 38.2px;
+}
+.types__item:nth-child(4) {
+  font-size: 14px;
+  line-height: 24px;
+}
+.types__title {
+  margin: 0;
+  margin-right: 30px;
+  width: 24px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.25);
+}
+
