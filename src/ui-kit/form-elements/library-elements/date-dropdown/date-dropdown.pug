@@ -1,0 +1,11 @@
+style 
+  include date-dropdown.scss 
+mixin date-dropdown(label, placehold, filter)
+  div.date-dropdown
+    h3.date-dropdown__label #{label}
+    if filter
+      input(type="text" class="date-dropdown__input date-dropdown__input_filter" placeholder=placehold)
+    else 
+      input(type="text" class="date-dropdown__input" placeholder=placehold)
+script 
+  include date-dropdown.js

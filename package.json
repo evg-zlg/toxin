@@ -21,6 +21,7 @@
     "pug": "^3.0.2"
   },
   "dependencies": {
+    "air-datepicker": "^3.2.0",
     "sass": "^1.54.4"
   }
 }
