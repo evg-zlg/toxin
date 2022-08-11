@@ -1,6 +1,9 @@
 style 
   include text-field.scss
-mixin text-field(label, placehold)
+mixin text-field(label, placehold, isFocused)
   div.text-field
     h3.text-field__label #{label}
-    input(type="text" class="text-field__input" placeholder=placehold)
+    if isFocused 
+      input(type="text" class="text-field__input text-field__input-isFocused" placeholder=placehold)
+    else 
+      input(type="text" class="text-field__input" placeholder=placehold)

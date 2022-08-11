@@ -1,4 +1,6 @@
 include ./library-elements/text-field/text-field
+include ./library-elements/text-field-masked/text-field-masked
+
 style 
   include page-form-elements.scss 
 figure.page__logo
@@ -9,8 +11,10 @@ div.content
         +text-field("text field", "Email")
         label.form-elements__label default
       div.form-elements__input
-        +text-field("text field", "This is pretty awesome")
+        +text-field("text field", "This is pretty awesome", isFocused=true)
         label.form-elements__label hover / focus
+      div.form-elements__input
+        +text-field-masked("masked text field", "ДД.ММ.ГГГГ")
     div.column
     div.column
   div.row 

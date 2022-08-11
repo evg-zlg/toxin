@@ -1,0 +1,8 @@
+style 
+  include text-field-masked.scss
+mixin text-field-masked(label, placehold)
+  div.text-field-masked
+    label.text-field-masked__label
+    input(type="text" class="text-field-masked__input" placeholder=placehold)
+script 
+  include text-field-masked.js
