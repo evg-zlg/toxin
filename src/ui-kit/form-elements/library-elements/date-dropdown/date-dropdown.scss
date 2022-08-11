@@ -1,5 +1,24 @@
+.date-dropdown {
+  box-sizing: content-box;
+  max-width: 266px;
+  position: relative;
+}
 .date-dropdown__label {
   margin-bottom: 5px;
+  
+}
+.date-dropdown__label::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid rgba(31, 32, 65, 0.5);
+  border-top: 2px solid rgba(31, 32, 65, 0.5);
+  margin-right: 15px;
+  position: absolute;
+  right: 2px;
+  top: 37px;
+  transform: rotate(135deg);
+  z-index: 100;
 }
 .date-dropdown__input {
   width: 150px;
@@ -8,6 +27,11 @@
   border-radius: 4px;
   padding-left: 15px;
 }
+
 .date-dropdown__input_filter{
   width: 266px;
 }
+.date-dropdown__input:focus, 
+.date-dropdown__input:hover {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+} 

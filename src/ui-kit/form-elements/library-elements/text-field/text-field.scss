@@ -1,13 +1,14 @@
 .text-field__label {
   margin-bottom: 5px;
 }
+
 .text-field__input {
   width: 320px;
   height: 44px;
   border: 1px solid rgba(31, 32, 65, 0.25);
   border-radius: 4px;
   padding-left: 15px;
-
+  position: relative;
 }
 .text-field__input::placeholder {
   font-size: 14px;
