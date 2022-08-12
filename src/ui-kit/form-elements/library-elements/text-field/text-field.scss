@@ -25,3 +25,23 @@
 .text-field__input-isFocused::placeholder {
   color:rgba(31, 32, 65, 0.75);
 } 
+.text-field__input_subscritpion {
+  width: 267px;
+
+}
+.text-field__label_subscritpion {
+  max-width: 267px;
+  position: relative;
+}
+.text-field__label_subscritpion::after {
+  content: "";
+  background-image: url("./ui-kit/form-elements/library-elements/text-field/arrow_subscr.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 20.5px;
+  height: 20px;
+  top: 31.1px;
+  right: 12px;
+  z-index: 100;
+}
