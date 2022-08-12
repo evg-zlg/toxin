@@ -1,0 +1,6 @@
+style 
+  include dropdown.scss
+mixin dropdown(label, placehold, mode)
+  div.dropdown 
+    h3.dropdown__label #{label}
+    input(type="text" class="dropdown__input" placeholder=placehold)
