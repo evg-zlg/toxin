@@ -351,6 +351,56 @@ p {
   border-left: 2px solid #8BA4F9;
   border-bottom: 2px solid #8BA4F9;
   transform: rotate(-45deg);
+}</style><style>.radio {
+  display: flex;
+  justify-content: space-between;
+  width: 220.8px;
+}
+.radio__label {
+  margin-bottom: 16px;
+}
+
+.radio__text {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+}
+
+.radio__input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.radio__mark::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid rgba(31, 32, 65, 0.25);;
+  border-radius: 50%;
+  background-color: #ffffff;    
+}
+.radio__input:checked + span {
+  color: rgba(31, 32, 65, 0.75);
+}
+.radio__input:checked + .radio__mark::after{
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 3.5px;
+  top: 5px;
+  background-image: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 50%;
+}
+.radio__input:checked + .radio__mark::before {
+  border: 1.5px solid #BC9CFF; 
 }</style><style>.row {
   display: flex;
 }
@@ -375,4 +425,4 @@ p {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-}</style><figure class="page__logo"></figure><div class="content"> <div class="row"><div class="column"><div class="form-elements-input"><div class="text-field"><!-- --><h3 class="text-field__label">text field</h3><input class="text-field__input" type="text" placeholder="Email"></div><label class="form-elements__label">default</label></div><div class="form-elements-input"><div class="text-field"><!-- --><h3 class="text-field__label">text field</h3><input class="text-field__input text-field__input-isFocused" type="text" placeholder="This is pretty awesome"></div><label class="form-elements__label">hover / focus</label></div><div class="form-elements-input"><div class="text-field-masked"><h3 class="text-field-masked__label">masked text field</h3><input class="text-field-masked__input" type="text" placeholder="ДД.ММ.ГГГГ"></div></div><div class="form-elements-input"><div class="dropdown"> <h3 class="dropdown__label">dropdown</h3><input class="dropdown__input" type="text" placeholder="Сколько гостей"></div></div><div class="form-elements__input form-elements__two-dropdown"><div class="date-dropdown"><h3 class="date-dropdown__label">date dropdown</h3><input class="date-dropdown__input" type="text" placeholder="ДД.ММ.ГГГГ"></div><div class="date-dropdown"><h3 class="date-dropdown__label">date dropdown</h3><input class="date-dropdown__input" type="text" placeholder="19.08.2019"></div></div><div class="form-elements-input"><div class="date-dropdown"><h3 class="date-dropdown__label">filter date dropdown</h3><input class="date-dropdown__input date-dropdown__input_filter" type="text" placeholder="19 авг - 23 авг"></div></div><div class="form-elements-input"><div class="text-field"><!-- --><h3 class="text-field__label text-field__label_subscritpion">subscription text field</h3><input class="text-field__input text-field__input_subscritpion" type="text" placeholder="Email"></div></div></div><div class="column"><div class="form-elements-input"> <h3 class="checkbox__label">checkbox buttons</h3><label class="checkbox__text">Можно курить<input class="checkbox__input" type="checkbox"><span class="checkbox__mark"> </span></label><label class="checkbox__text">Можно с питомцами<input class="checkbox__input" type="checkbox" checked=""><span class="checkbox__mark"> </span></label><label class="checkbox__text">Можно пригласить гостей (до 10 человек)<input class="checkbox__input" type="checkbox" checked=""><span class="checkbox__mark"> </span></label></div></div><div class="column"></div></div><div class="row"> <div class="column"></div><div class="column"></div><div class="column"></div></div><div class="row"><div class="column"></div><div class="column"></div><div class="column"></div></div><div class="row"><div class="column"></div><div class="column"></div></div></div><section class="cards"></section><section class="headers-footers"></section></section></section></article><script> </script></body></html>
+}</style><figure class="page__logo"></figure><div class="content"> <div class="row"><div class="column"><div class="form-elements-input"><div class="text-field"><!-- --><h3 class="text-field__label">text field</h3><input class="text-field__input" type="text" placeholder="Email"></div><label class="form-elements__label">default</label></div><div class="form-elements-input"><div class="text-field"><!-- --><h3 class="text-field__label">text field</h3><input class="text-field__input text-field__input-isFocused" type="text" placeholder="This is pretty awesome"></div><label class="form-elements__label">hover / focus</label></div><div class="form-elements-input"><div class="text-field-masked"><h3 class="text-field-masked__label">masked text field</h3><input class="text-field-masked__input" type="text" placeholder="ДД.ММ.ГГГГ"></div></div><div class="form-elements-input"><div class="dropdown"> <h3 class="dropdown__label">dropdown</h3><input class="dropdown__input" type="text" placeholder="Сколько гостей"></div></div><div class="form-elements__input form-elements__two-dropdown"><div class="date-dropdown"><h3 class="date-dropdown__label">date dropdown</h3><input class="date-dropdown__input" type="text" placeholder="ДД.ММ.ГГГГ"></div><div class="date-dropdown"><h3 class="date-dropdown__label">date dropdown</h3><input class="date-dropdown__input" type="text" placeholder="19.08.2019"></div></div><div class="form-elements-input"><div class="date-dropdown"><h3 class="date-dropdown__label">filter date dropdown</h3><input class="date-dropdown__input date-dropdown__input_filter" type="text" placeholder="19 авг - 23 авг"></div></div><div class="form-elements-input"><div class="text-field"><!-- --><h3 class="text-field__label text-field__label_subscritpion">subscription text field</h3><input class="text-field__input text-field__input_subscritpion" type="text" placeholder="Email"></div></div></div><div class="column"><div class="form-elements-input"> <h3 class="checkbox__label">checkbox buttons</h3><label class="checkbox__text">Можно курить<input class="checkbox__input" type="checkbox"><span class="checkbox__mark"> </span></label><label class="checkbox__text">Можно с питомцами<input class="checkbox__input" type="checkbox" checked=""><span class="checkbox__mark"> </span></label><label class="checkbox__text">Можно пригласить гостей (до 10 человек)<input class="checkbox__input" type="checkbox" checked=""><span class="checkbox__mark"> </span></label></div><div class="form-elements-input"> <h3 class="radio__label">radio buttons</h3><div class="radio"><label class="radio__text"> <input class="radio__input" type="radio" name="sex" checked=""><span class="radio__mark">Мужчина</span></label><label class="radio__text"> <input class="radio__input" type="radio" name="sex"><span class="radio__mark">Женщина</span></label></div></div></div><div class="column"></div></div><div class="row"> <div class="column"></div><div class="column"></div><div class="column"></div></div><div class="row"><div class="column"></div><div class="column"></div><div class="column"></div></div><div class="row"><div class="column"></div><div class="column"></div></div></div><section class="cards"></section><section class="headers-footers"></section></section></section></article><script> </script></body></html>

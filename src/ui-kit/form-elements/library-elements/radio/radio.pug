@@ -1,0 +1,12 @@
+style 
+  include radio.scss 
+mixin radio(label)
+  h3.radio__label #{label}
+  div.radio
+    label.radio__text 
+      input(type="radio" name="sex" checked class="radio__input")
+      span(class="radio__mark") Мужчина
+    label.radio__text 
+      input(type="radio" name="sex" class="radio__input")
+      span(class="radio__mark") Женщина
+    

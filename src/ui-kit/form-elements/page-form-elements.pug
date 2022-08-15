@@ -3,6 +3,7 @@ include ./library-elements/text-field-masked/text-field-masked
 include ./library-elements/date-dropdown/date-dropdown
 include ./library-elements/dropdown/dropdown
 include ./library-elements/checkbox/checkbox
+include ./library-elements/radio/radio
 
 style 
   include page-form-elements.scss 
@@ -34,6 +35,8 @@ div.content
           {text: "Можно с питомцами", checked: true},
           {text: "Можно пригласить гостей (до 10 человек)", checked: true}
         ])
+      div.form-elements-input 
+        +radio("radio buttons")
     div.column
   div.row 
     div.column
