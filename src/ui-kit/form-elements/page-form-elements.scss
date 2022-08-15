@@ -1,4 +1,10 @@
-.form-elements__input {
+.row {
+  display: flex;
+}
+.column:nth-child(2) {
+  margin-left: 126px;
+}
+.form-elements-input {
   position: relative;
   margin-bottom: 20px;
 }
@@ -15,4 +21,5 @@
 .form-elements__two-dropdown {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }

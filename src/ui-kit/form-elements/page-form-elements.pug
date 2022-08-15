@@ -2,6 +2,7 @@ include ./library-elements/text-field/text-field
 include ./library-elements/text-field-masked/text-field-masked
 include ./library-elements/date-dropdown/date-dropdown
 include ./library-elements/dropdown/dropdown
+include ./library-elements/checkbox/checkbox
 
 style 
   include page-form-elements.scss 
@@ -9,24 +10,30 @@ figure.page__logo
 div.content 
   div.row
     div.column
-      div.form-elements__input
+      div.form-elements-input
         +text-field("text field", "Email")
         label.form-elements__label default
-      div.form-elements__input
+      div.form-elements-input
         +text-field("text field", "This is pretty awesome", isFocused=true)
         label.form-elements__label hover / focus
-      div.form-elements__input
+      div.form-elements-input
         +text-field-masked("masked text field", "ДД.ММ.ГГГГ")
-      div.form-elements__input
+      div.form-elements-input
         +dropdown("dropdown", "Сколько гостей")
       div(class="form-elements__input form-elements__two-dropdown")
         +date-dropdown("date dropdown", "ДД.ММ.ГГГГ")
         +date-dropdown("date dropdown", "19.08.2019")
-      div.form-elements__input
+      div.form-elements-input
         +date-dropdown("filter date dropdown", "19 авг - 23 авг", filter=true)
-      div.form-elements__input
+      div.form-elements-input
         +text-field("subscription text field", "Email", isFocused=false, isSubscription=true)
     div.column
+      div.form-elements-input 
+        +checkbox("checkbox", "checkbox buttons", [
+          {text: "Можно курить", checked: false},
+          {text: "Можно с питомцами", checked: true},
+          {text: "Можно пригласить гостей (до 10 человек)", checked: true}
+        ])
     div.column
   div.row 
     div.column

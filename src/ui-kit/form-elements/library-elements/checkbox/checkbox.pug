@@ -1,0 +1,14 @@
+style 
+  include checkbox.scss 
+mixin checkbox(type, label, content)
+  if type == "checkbox"
+    h3.checkbox__label #{label}
+    each row in content
+      label.checkbox__text #{row.text}
+        if row.checked 
+          input(type="checkbox" checked class="checkbox__input")
+        else 
+          input(type="checkbox" class="checkbox__input")
+        span.checkbox__mark 
+  else 
+    input(type="checkbox" class="checkbox__input-test")
