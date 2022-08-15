@@ -4,6 +4,7 @@ include ./library-elements/date-dropdown/date-dropdown
 include ./library-elements/dropdown/dropdown
 include ./library-elements/checkbox/checkbox
 include ./library-elements/radio/radio
+include ./library-elements/toggle/toggle
 
 style 
   include page-form-elements.scss 
@@ -37,6 +38,8 @@ div.content
         ])
       div.form-elements-input 
         +radio("radio buttons")
+      div.form-elements-input 
+        +toggle("toggle")
     div.column
   div.row 
     div.column

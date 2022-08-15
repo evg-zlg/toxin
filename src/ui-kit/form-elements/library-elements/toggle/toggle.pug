@@ -1,0 +1,11 @@
+style
+  include toggle.scss 
+mixin toggle(label)
+  h3.toggle__label #{label}
+  div.toggle-group
+    label.toggle__text Получать спецпредложения
+      input(type="checkbox" checked class="toggle__input")
+      span.toggle__mark 
+    label.toggle__text Получать спецпредложения
+      input(type="checkbox" class="toggle__input")
+      span.toggle__mark 
