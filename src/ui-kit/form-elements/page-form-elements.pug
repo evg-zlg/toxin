@@ -41,9 +41,11 @@ div.content
         +radio("radio buttons")
       div.form-elements-input 
         +toggle("toggle")
-      div.form-elements-input 
-        +like-button("2", "")
-        +like-button("12", "pressed")
+      div.form-elements-input
+        h3.form-elements-input__label-like-buttons like buttons
+        div.form_elements-input__like-buttons
+          +like-button("2", "")
+          +like-button("12", "pressed")
     div.column
   div.row 
     div.column
@@ -57,3 +59,5 @@ div.content
     div.column
     div.column
     
+script 
+  include ./library-elements/like-button/like-button.js

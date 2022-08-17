@@ -1,8 +1,9 @@
-style 
+style
   include like-button.scss
-mixin like-button(label, mode)
+// mode - text, masked, subscription
+mixin like-button(lab, mode)
   if mode == "pressed"
-    div.like-button.like-button_pressed
+    div.like-button.like-button--pressed
       button.like-button__btn #{lab}
       span(class="like-button__icon material-icons") favorite
   else 
