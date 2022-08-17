@@ -10,5 +10,11 @@
   font-style: normal;
   src: url("/montserrat-bold.7a7db987.ttf") format("truetype"), url("/montserrat-bold.b5ae94a0.woff") format("woff");
 }
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url("/material-icons-round.e6ddcaa7.woff2") format("woff2"), url("/material-icons-round.75a52932.woff") format("woff");
+}
 
 /*# sourceMappingURL=/fonts.008ae1fc.css.map */

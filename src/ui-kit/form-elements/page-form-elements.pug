@@ -5,6 +5,7 @@ include ./library-elements/dropdown/dropdown
 include ./library-elements/checkbox/checkbox
 include ./library-elements/radio/radio
 include ./library-elements/toggle/toggle
+include ./library-elements/like-button/like-button
 
 style 
   include page-form-elements.scss 
@@ -40,6 +41,9 @@ div.content
         +radio("radio buttons")
       div.form-elements-input 
         +toggle("toggle")
+      div.form-elements-input 
+        +like-button("2", "")
+        +like-button("12", "pressed")
     div.column
   div.row 
     div.column

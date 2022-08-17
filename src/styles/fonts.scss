@@ -12,3 +12,12 @@
   src: url("../fonts/montserrat-bold.ttf") format("truetype"),
        url("../fonts/montserrat-bold.woff") format("woff");
 }
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url("../../node_modules/material-icons/iconfont/material-icons-round.woff2") format('woff2'),
+       url("../../node_modules/material-icons/iconfont/material-icons-round.woff") format('woff'),
+}
