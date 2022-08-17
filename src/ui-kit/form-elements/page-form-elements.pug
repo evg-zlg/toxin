@@ -6,6 +6,7 @@ include ./library-elements/checkbox/checkbox
 include ./library-elements/radio/radio
 include ./library-elements/toggle/toggle
 include ./library-elements/like-button/like-button
+include ./library-elements/rate-button/rate-button
 
 style 
   include page-form-elements.scss 
@@ -46,6 +47,9 @@ div.content
         div.form_elements-input__like-buttons
           +like-button("2", "")
           +like-button("12", "pressed")
+      div.form-elements-input
+        +rate-button(4)
+        +rate-button(5)
     div.column
   div.row 
     div.column
